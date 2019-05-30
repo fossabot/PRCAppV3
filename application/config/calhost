@@ -1,0 +1,35 @@
+                                     List of databases
+      Name       |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
+-----------------+----------+----------+-------------+-------------+-----------------------
+ deploy          | postgres | UTF8     | en_HK.UTF-8 | en_HK.UTF-8 | postgres=CTc/postgres+
+                 |          |          |             |             | =Tc/postgres         +
+                 |          |          |             |             | deploy=CTc/postgres
+ devdemo         | mboard   | UTF8     | en_HK.UTF-8 | en_HK.UTF-8 | mboard=CTc/mboard    +
+                 |          |          |             |             | =Tc/mboard           +
+                 |          |          |             |             | zabbix=c/mboard
+ devdvlp         | mboard   | UTF8     | en_HK.UTF-8 | en_HK.UTF-8 | mboard=CTc/mboard    +
+                 |          |          |             |             | =Tc/mboard           +
+                 |          |          |             |             | zabbix=c/mboard
+ devjaspal       | mboard   | UTF8     | en_HK.UTF-8 | en_HK.UTF-8 | mboard=CTc/mboard    +
+                 |          |          |             |             | =Tc/mboard           +
+                 |          |          |             |             | zabbix=c/mboard
+ devtemplate     | mboard   | UTF8     | en_HK.UTF-8 | en_HK.UTF-8 | mboard=CTc/mboard    +
+                 |          |          |             |             | =Tc/mboard           +
+                 |          |          |             |             | zabbix=c/mboard
+ fot             | deploy   | UTF8     | en_HK.UTF-8 | en_HK.UTF-8 | deploy=CTc/deploy    +
+                 |          |          |             |             | =Tc/deploy           +
+                 |          |          |             |             | zabbix=c/deploy
+ iho             | iho      | UTF8     | en_HK.UTF-8 | en_HK.UTF-8 | iho=CTc/iho          +
+                 |          |          |             |             | =Tc/iho              +
+                 |          |          |             |             | dean=CTc/iho         +
+                 |          |          |             |             | zabbix=c/iho
+ mboard_defaults | postgres | UTF8     | en_HK.UTF-8 | en_HK.UTF-8 | 
+ postgres        | postgres | UTF8     | en_HK.UTF-8 | en_HK.UTF-8 | postgres=CTc/postgres+
+                 |          |          |             |             | =Tc/postgres         +
+                 |          |          |             |             | zabbix=c/postgres
+ template0       | postgres | UTF8     | en_HK.UTF-8 | en_HK.UTF-8 | =c/postgres          +
+                 |          |          |             |             | postgres=CTc/postgres
+ template1       | postgres | UTF8     | en_HK.UTF-8 | en_HK.UTF-8 | postgres=CTc/postgres+
+                 |          |          |             |             | =c/postgres
+(11 rows)
+

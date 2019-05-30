@@ -1,0 +1,137 @@
+.simple_filter_upper {
+    xtext-transform: uppercase;
+    margin-top: 4px !important; 
+    height: 29px;
+}
+.simple_filter_int {
+    text-align: left;
+    margin-top: 4px !important; 
+    height: 29px;
+}
+
+
+    .control-label-filter {
+        font-size: 12px !important;
+        height: 20px;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+		max-width: 90% !important;
+        
+
+    }
+
+.filterbutton {
+    font-size: 12px;
+   margin-top: 5px;
+   cursor: pointer;
+}
+
+.picklist_filter {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.picklist_filter_exists {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 26px;
+	width: 99%;
+}
+
+.picklist_filter_frame {
+   min-width: 200px;
+   
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height:52px;
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+   padding-bottom: 5px;
+}
+
+
+.picklist_filter_half_frame {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	width:100px;
+	height:45px;
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.picklist_filter_75_frame {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	width:150px;
+	height:45px;
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+
+.filter_groupbox {
+   display:table ;
+	background-color: #9FF;
+	height: 100%;
+}
+
+.filter_groupbox_legend {
+	background-color: #000099;
+   width: 70px;
+	border: thin solid #000;
+	padding: 1px;
+   margin-top: -10px;
+   margin-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+   display: block;
+   text-align: center;
+}
+
+
+.filter_groupbox {
+	width: 100%;
+   margin-bottom: 5px;
+   background-color: transparent !important;
+
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+
+}
+
+.filter_groupbox_legend {
+	background-color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}

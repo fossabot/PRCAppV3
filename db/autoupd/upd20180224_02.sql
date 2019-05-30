@@ -1,0 +1,33 @@
+CREATE TRIGGER ins_before_EMPLOYEE_TERMINATION_TYPE BEFORE INSERT ON EMPLOYEE_TERMINATION_TYPE
+FOR EACH ROW
+BEGIN
+    IF NEW.cd_employee_termination_type IS NULL THEN
+        SET NEW.cd_employee_termination_type = nextval('EMPLOYEE_TERMINATION_TYPE');
+     END IF;
+END;
+
+CREATE TRIGGER ins_before_FLIGHT_EXTRA_EXPENSE_TYPE BEFORE INSERT ON FLIGHT_EXTRA_EXPENSE_TYPE
+FOR EACH ROW
+BEGIN
+    IF NEW.cd_flight_extra_expense_type IS NULL THEN
+        SET NEW.cd_flight_extra_expense_type = nextval('FLIGHT_EXTRA_EXPENSE_TYPE');
+     END IF;
+END;
+
+
+CREATE TRIGGER ins_before_SYSTEM_REPORTS_AUTHORIZATION_PARAM BEFORE INSERT ON SYSTEM_REPORTS_AUTHORIZATION_PARAM
+FOR EACH ROW
+BEGIN
+    IF NEW.cd_system_reports_authorization_param IS NULL THEN
+        SET NEW.cd_system_reports_authorization_param = nextval('SYSTEM_REPORTS_AUTHORIZATION_PARAM');
+     END IF;
+END;
+
+
+CREATE TRIGGER ins_before_FLIGHT_TICKET_EXTRA_EXPENSE BEFORE INSERT ON FLIGHT_TICKET_EXTRA_EXPENSE
+  FOR EACH ROW
+  BEGIN
+    IF NEW.cd_flight_ticket_extra_expense IS NULL THEN
+      SET NEW.cd_flight_ticket_extra_expense = nextval('FLIGHT_TICKET_EXTRA_EXPENSE');
+    END IF;
+  END;

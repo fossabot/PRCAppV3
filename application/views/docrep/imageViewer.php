@@ -1,0 +1,1 @@
+<img src="<?php echo ($data); ?>" class="img-responsive"style="max-height: 600px;margin: 0 auto">

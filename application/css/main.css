@@ -1,0 +1,567 @@
+td.fth-header, th.fth-header,
+td.fth-footer, th.fth-footer {
+    border-top: none !important;
+    border-bottom: 1px solid #ddd;
+}
+td.fth-header, th.fth-header {
+    background-color: white;
+    z-index: 1030;
+}
+
+th.fth-header {
+    background-color: #E8E8E8;
+}
+
+.pldMaxWidth {
+    max-width: 60% !important;
+}     
+
+.xmain-header {
+    z-index: 999;
+}
+.xnavbar-static-top {
+    z-index: 998;
+}
+.skin-red .main-header .navbar {
+    background-color: #db011c;
+}
+.skin-red .main-header .logo {
+    background-color: #db011c;
+}
+
+.btn-addon {
+    font-size: 14px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 6px;
+    padding-left: 6px;
+
+
+}
+
+.alertFormInputMissing {
+    border: red groove thin !important ;
+}
+
+.successFormInputMissing {
+    border: blue groove thin !important ;
+}
+.left_header {
+    text-align: right;
+    vertical-align: top;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: auto;
+    bottom: auto;
+    height: auto;
+    width: 300px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.right_header {
+    text-align: left;
+    vertical-align: top;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: auto;
+    bottom: auto;
+    height: 40px;
+    width: 400px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+
+.choption {
+    text-align: left;
+    vertical-align: bottom;
+    position: relative;
+    height: 30px;
+    width: auto;
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+
+#main-menu ul {
+    width:12em; /* fixed width only please - you can use the "subMenusMinWidth"/"subMenusMaxWidth" script options to override this if you like */
+}
+body, html {
+    background-color: #f0f0f0;
+    text-align: left;
+    height: 100%;
+}
+
+
+.system_name_menu {
+    background-color: #D1F0F0;
+    vertical-align: top;
+    clip: rect(0px,0px,auto,0px);
+    text-align: center;
+}
+
+
+.docrep_cell_checkbox {
+    background-color:rgb(255,255,255);
+    height:16px;
+    width: 16px;
+    position: absolute;
+    left: 150px;
+    top:10px;
+    z-index: 10;
+}
+
+.docrep_cell_text {
+    height:16px;
+    width: 120px;
+    position: absolute;
+    left: 20px;
+    top:10px;
+    z-index: 10;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.docrep_cell {
+
+    background-color: #f0f0f0;
+    height:220px;
+    width:160px;
+    float:left;
+    border-width: thin;
+    border-style: solid;   
+    margin: 10px;
+    position: relative;
+    border-color: white;
+
+}
+
+.docrep_cell_image {
+    background-color: rgb(255,255,255);
+    height:180px;
+    width: 120px;
+    position:relative;
+    left: 20px;
+    top:30px;
+}
+
+.docrep_cell_icon {
+    background-color:rgba(255,255,255, 0.4);
+    z-index: 10;
+    height:16px;
+    width: 100px;
+    position: relative;
+    left: 30px;
+    top:5px;
+}
+
+.docrep_cell_selected {
+    border-color: black;
+}
+
+.cgbSmallForm {
+    height: 23px; 
+
+}
+
+.cgbSmallForm label {
+    height: 18px;
+    font-size: 10px !important;
+    font-family: sans-serif !important;
+}
+
+.cgbSmallForm input {
+    font-size: 10px !important;
+    font-family: sans-serif !important;
+
+    margin: 0px;
+    padding: 3px;
+
+}
+
+.cgbNormalForm {
+    height: 26px;  
+}
+
+.cgbNormalForm label {
+    font-size: 11px !important;
+    font-family: sans-serif !important;
+}
+
+.cgbNormalForm input {
+    font-size: 11px !important;
+    font-family: sans-serif !important;
+
+    margin: 0px;
+    padding: 4px;
+}
+
+/*Pequenos ajustes ao bootstrap e etc...*/
+.form-group {
+    /* margin-bottom: 5px; */
+}
+
+.control-label {
+    font-size: 12px !important;
+    height: 26px;
+    padding-right: 1px !important;
+    /*padding-left: 5px !important;*/
+    line-height: 12px !important;
+    padding-top: 8px !important; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+
+}
+
+
+.input-sm {
+    padding: 3px 5px !important;
+    height: 26px;
+}
+
+
+.row-form-adjust {
+    margin-bottom: 5px;
+}
+.small-padding {
+    padding: 2px !important;        
+}
+
+.panelHighLight {
+    /*border: red thin inset;*/
+    background-color: tomato !important;
+}
+
+
+.box {
+    margin-bottom: 5px;
+}
+
+.box-header {
+    padding:3px !important;
+}
+
+.box-title {
+    font-size: 14px !important;
+}
+
+.box-tools {
+    top:0px !important;
+}
+
+.row {
+    padding-bottom: 2px !important;
+}
+
+.toolbarStyle {
+    width: 100%;
+    background-color: white !important; 
+    border-bottom: gray thin solid !important;  
+    padding-bottom: 3px !important; 
+    margin-bottom: 3px !important;
+}
+
+
+.content {
+    padding-bottom: 0px !important;
+}
+
+.select2-drop {
+    z-index: 100000002 !important;
+}
+.select2-results {
+    z-index: 100000002 !important;    
+}
+.select2-search {
+    z-index: 100000002 !important;    
+
+}
+.text-form {
+    padding-top: 5px;
+}
+
+
+
+.thumbnail-over {
+    position:relative;
+    overflow:hidden;
+}
+
+.caption-over {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(90, 90, 90, 0.85);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align: left;
+    color:#fff !important;
+    z-index:2;
+}    
+.thumbs-selected {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#49c0f0+0,2cafe3+100;Blue+3D+%2311 */
+    background: #49c0f0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #49c0f0 0%, #2cafe3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #49c0f0 0%,#2cafe3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #49c0f0 0%,#2cafe3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49c0f0', endColorstr='#2cafe3',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.data-selected {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#49c0f0+0,2cafe3+100;Blue+3D+%2311 */
+    background: #49c0f0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #49c0f0 0%, #2cafe3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #49c0f0 0%,#2cafe3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #49c0f0 0%,#2cafe3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49c0f0', endColorstr='#2cafe3',GradientType=0 ); /* IE6-9 */
+
+}
+
+.img-icon-export {
+    background-image: url(/resources/export_icon.png)
+}
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.pace-inactive {
+    display: none;
+}
+
+.webui-popover-inner .popupButton {
+    font-family: arial;
+    margin: 8px 10px 0 0;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    color: #000000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    text-decoration: none;
+}
+.webui-popover-inner .popupButton:hover,
+.webui-popover-inner .popupButton:focus {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.webui-popover-inner .popupButton:after {
+    width: 0.8em;
+    height: 0.8em;
+    padding: 4px;
+    position: relative;
+}
+
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+    background-color: rgba(0, 107, 230, 0.4);
+    color:black;
+}
+
+.webui-popover-title-mini {
+    font-size: 12px !important;
+    line-height: 9px !important;
+}
+
+.webui-popover-inner .close-mini {
+    margin: 5px 4px 0 0 !important;
+}
+
+.messageBoxCGBClass {
+    height: 100px;
+    min-height: 100px;
+    max-height: 300px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.toolbarTitle {
+
+    font-weight: bolder;
+    font-size: 14px !important;
+    color: #8d99a7;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+ul.multi-nested-list,
+ul.multi-nested-list ul {
+    padding: 0em;
+}
+
+ul.multi-nested-list li,
+ul.multi-nested-list ul li {
+    position:relative;
+    top:0;
+    bottom:0;
+    padding-bottom: 7px;
+}
+
+ul.multi-nested-list li ul {
+    margin-left: 4em;
+}
+
+ul.multi-nested-list li {
+    list-style-type: none;
+}
+
+ul.multi-nested-list li a {
+    padding:0 0 0 10px;
+    position: relative;
+    top:1em;
+}
+
+ul.multi-nested-list li a:hover {
+    text-decoration: none;
+}
+
+ul.multi-nested-list a.addBorderBefore:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 28px;
+    position: absolute;
+    left: -47px;
+    top:-16px;
+    border-left: 1px solid gray;
+}
+
+ul.multi-nested-list li:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 0;
+    position: relative;
+    left: 0em;
+    top:1em;
+    border-top: 1px solid gray;
+}
+
+ul.multi-nested-list li ul li:last-child:after,
+ul.multi-nested-list li:last-child:after {
+    content: '';
+    display: block;
+    width: 1em;
+    height: 1em;
+    position: relative;
+    background: #fff;
+    top: 9px;
+    left: -1px;
+}
+
+.steps {
+    list-style-type: none;
+    padding: 0;
+}
+.steps li {
+    display: inline-block;
+    margin-bottom: 3px;
+    padding-right: 2px;
+
+}
+.steps li span {
+    background: #e5f4fd;
+    padding: 8px 20px;
+    color: #0077bf;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    text-indent: 12px;
+    height: 50px;
+}
+.steps li span:hover {
+    text-decoration: none;
+}
+.steps li span:before {
+    border-bottom: 24px solid transparent;
+    border-left: 12px solid #fff;
+    border-top: 24px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    margin-top: -24px;
+}
+.steps li span:after {
+    border-bottom: 24px solid transparent;
+    border-left: 12px solid #e5f4fd;
+    border-top: 24px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    left:100%; 
+    top: 50%;
+    width: 0;
+    margin-top: -24px;
+    z-index: 1;
+}
+.steps li.active span {
+    background: #0077bf;
+    color: #fff;
+}
+.steps li.active span:after {
+    border-left: 12px solid #0077bf;
+}
+.steps li.pending span {
+    background: #eee;
+    color: #333;
+}
+.steps li.pending span:after {
+    border-left: 12px solid #eee;
+}
+.steps li.pending p {
+    color: #aaa;
+}
+
+
+
+.steps li a{
+    color: black;
+    text-decoration: underline;
+}
+
+
+.steps li.rejected span {
+    background: tomato;
+    color: black;
+}
+.steps li.rejected span:after {
+    border-left: 12px solid tomato;
+}
+
+.steps li.bypassed span {
+    background: tomato;
+    color: black;
+}
+.steps li.bypassed span:after {
+    border-left: 12px solid tomato;
+}
+

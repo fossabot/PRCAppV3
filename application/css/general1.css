@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #999;
+    font-family: Verdana,Helvetica,sans-serif,Arial;
+	height: 100%;
+	font-size:11px;
+}
+
+/* Divisao do Menu */
+
+.menudiv {
+	border: thin solid #333;
+	border-top-style: outset;
+	border-right-style: outset;
+	border-left-style: outset;
+	border-bottom-style: outset;
+	height: 100%;
+	display: table-cell;
+	min-width: 200px;
+}
+
+/* Divisao da area de trabalho */
+.workarea {
+	/*border: thin solid #D6D6D6*/;
+	width: 100%;
+	display: table-cell;
+	vertical-align: top;
+}
+
+.maindiv {
+	border: thin solid #333;
+	border-top-style:outset;
+	border-right-style:outset;
+	border-left-style:outset;
+	border-bottom-style:outset;
+}
+
+/* Tabelas */
+.browsegrid {
+border-collapse: collapse;
+}
+
+.browsegrid tr td {border:1px solid black;}
+
+.browsetitleborder {
+	background-color: #666;
+	border: thin solid #333;	
+	}
+
+.browsetitletext {
+	font-size: 12px;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;	
+}
+/* FIM Tabelas */
+
+/* Campos */
+.readonlytext, .readonlytextdeactivated, .readonlydate {
+	background-color:transparent;	
+}
+
+.readonlytextdeactivated {
+	color:#F00;
+}
+
+.edittextclassontable {
+	background-color: #FFF;
+    border: thin solid #FFF;	
+	width:99%;
+}
+
+.readonlydate, .editdateclassontable {
+	text-align:center;
+	width:100px;
+}
+
+.idfield {
+	background-color:transparent;
+	text-align:center;
+}
+
+
+
+/* Fim Campos */
+

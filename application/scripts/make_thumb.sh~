@@ -1,0 +1,24 @@
+#!/bin/bash
+# Parametro $1 = Path do local do Thumb, $2 Path do temp , $3 Filename , $4 thumbs file, $5 se eh 2 passos
+#echo$1, $2
+#convert "$1"[0] -thumbnail '120x180>' -background white -alpha remove -gravity center "$2"
+of="$3"
+tf="$1$4"
+ss = "$2$4.pdf"
+
+if [ "$5" = "Y" ]; then
+teste = 'unoconv  -f pdf -o $ss $of'
+echo $teste
+of=$2$4.pdf	
+fi
+
+convert "$of"[0] -thumbnail '120x180>' -background white -alpha remove -strip -gravity center -quality 80 PNG8:"$tf"
+
+
+#convert "$1"[0] -thumbnail '120x180>' -background white -alpha remove -strip -gravity center -quality 80 PNG8:"$2"
+
+#if [ $? -eq 0 ]; then
+#	echo 'OK'
+#else
+#	echo 'FAIL '
+#fi

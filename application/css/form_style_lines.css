@@ -1,0 +1,39 @@
+input[type=textedit] {
+    font: 14px normal normal uppercase helvetica, arial, serif;
+    color: #7c7873;background:none;
+    width: 99%; height: 24px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;
+    border:2px solid #f8f5f1;
+    //-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+    //-moz-box-shadow: inset 0px 0px 1px #726959;
+    //-webkit-box-shadow:  inset 0px 0px 1px #b3a895; 
+    //box-shadow:  inset 0px 0px 1px #b3a895;
+}	
+	
+input[type=date] {
+    font: 14px normal normal uppercase helvetica, arial, serif;
+    color: #7c7873;background:none;
+    width: 99%; height: 24px; padding: 0px 0px; margin: 0 0px 0px 0;
+    border:1px solid #f8f5f1;
+    //-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+    //-moz-box-shadow: inset 0px 0px 1px #726959;
+    //-webkit-box-shadow:  inset 0px 0px 1px #b3a895; 
+    //box-shadow:  inset 0px 0px 1px #b3a895;
+   text-align: center;
+}
+
+input[type=key] {
+    font: 14px normal normal uppercase helvetica, arial, serif;
+    color: #7c7873;background:none;
+    width: 99%; height: 24px; padding: 0px 0px; margin: 0 0px 0px 0;
+    border:1px solid #f8f5f1;
+    //-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+    //-moz-box-shadow: inset 0px 0px 1px #726959;
+    //-webkit-box-shadow:  inset 0px 0px 1px #b3a895; 
+    //box-shadow:  inset 0px 0px 0px #b3a895;
+   text-align: center;
+}
+
+
+textarea { height: 80px; padding-top:0px;}
+
+//textarea:focus, input[type=text]:focus {background:rgba(255,255,255,.35);}
